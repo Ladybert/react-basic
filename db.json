@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "post-f6qauNaLJBJKjZCch5Yy5",
+      "title": "anonim",
+      "body": "kelak engkau akan dipertemukan di waktu yang tepat",
+      "userId": "user-O0PCzTJQNui0ke2MTIvak"
+    },
+    {
+      "id": "post-wVbsQBMtu0PJ2QiE3NcvL",
+      "title": "ada di hatimu",
+      "body": "sayankkk hehe :>",
+      "userId": "user-XYsH5cPXiOfaMmzvHF4Zu"
+    },
+    {
+      "id": "post-ZpoGoJFGN4jKIBem7xSge",
+      "title": "hi",
+      "body": "aku kangen bgt sm kmuw :>",
+      "userId": "user-4Zqz56iZCseUW9_XE0xo0"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ]
+}

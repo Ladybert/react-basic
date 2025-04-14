@@ -1,0 +1,122 @@
+.section-title {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4a4a4a;
+    }
+
+    .post {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    }
+
+.img-thumb {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+    }
+
+    .img-thumb img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    }
+
+    .content {
+    flex: 1;
+    }
+
+    .content p.title {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3d4a6e;
+    margin-bottom: 16px;
+    }
+
+    .content p.desc {
+        margin: 0px;
+        font-size: 16px;
+        color: #4a4a4a;
+        white-space: wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .delete-btn {
+        margin-top: 20px;
+        padding: 12px 18px;
+        border: 0;
+        border-radius: 4px;
+        background-color: rgb(227, 0, 0);
+        color: white;
+        cursor: pointer;
+        transition: 300ms;
+        font-weight: 600;
+    }
+
+    .update-btn {
+        margin-top: 20px;
+        margin-right: 4px;
+        padding: 12px 18px;
+        border: 0;
+        border-radius: 4px;
+        background-color: rgb(255, 187, 0);
+        color: white;
+        cursor: pointer;
+        transition: 300ms;
+        font-weight: 600;
+    }
+
+    .delete-btn:hover {
+        background-color: rgb(203, 0, 0);
+    }
+
+    .form-add-post {
+        box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
+        width: 500px;
+        margin-left: 20px;
+        padding: 10px;
+        margin-bottom: 50px;
+        border-radius: 4px;
+        }
+
+        .form-add-post label {
+        display: block;
+        font-size: 14px;
+        color: #60708B;
+        font-weight: bold;
+        margin-bottom: 10px;
+        }
+
+        .form-add-post input, .form-add-post textarea {
+        outline: none;
+        border: 1px solid #60708B;
+        padding: 12px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 12px;
+        color: #607D8B;
+        }
+    
+        button.btn-submit {
+            width: 100%;
+            outline: none;
+            border: 1px solid #2196F3;
+            padding: 10px 30px;
+            border-radius: 4px;
+            background-color: transparent;
+            color: #2196F3;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: 30px;
+            cursor: pointer;
+            }

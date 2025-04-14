@@ -1,0 +1,14 @@
+.lifecycle-btn {
+    margin: 4vw;
+    padding: 10px 36px;
+    border: 1px solid #3F5185;
+    border-radius: 4px;
+    outline: none;
+    background: #03A9F4;
+    color: white;
+    font-size: 16px;
+}
+
+.lifecycle-btn {
+    cursor: pointer;
+}

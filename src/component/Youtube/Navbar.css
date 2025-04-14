@@ -1,0 +1,27 @@
+header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.nav-title {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: monospace;
+    text-align: left;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: monospace;
+}
