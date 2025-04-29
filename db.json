@@ -17,6 +17,12 @@
       "title": "hi",
       "body": "aku kangen bgt sm kmuw :>",
       "userId": "user-4Zqz56iZCseUW9_XE0xo0"
+    },
+    {
+      "id": "post-xzTRozy5jIVfkRqRfpZ3F",
+      "title": "Konten Penggiring Opini Publik",
+      "body": "useState dan useEffect adalah dua hook yang paling umum digunakan dalam React JS",
+      "userId": "user-3Ogb6fM5y-966Fqq3P8I7"
     }
   ],
   "comments": [

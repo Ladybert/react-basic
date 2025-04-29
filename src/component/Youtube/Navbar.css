@@ -25,3 +25,15 @@ header {
     font-weight: 400;
     font-family: monospace;
 }
+
+.nav-item a {
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    transition: 300ms;
+}
+
+.nav-item a:hover {
+    color: blue;
+}

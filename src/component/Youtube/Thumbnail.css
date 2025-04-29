@@ -1,7 +1,7 @@
 .youtube-wrapper {
-  display: inline-block;
+  display: block;
+  width: 15%;
   position: relative;
-  width: 210px;
   box-sizing: border-box;
   margin: 1em;
   cursor: pointer;
@@ -55,3 +55,7 @@ p.description {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+/* p.title, p.description {
+  width: 50%;
+} */

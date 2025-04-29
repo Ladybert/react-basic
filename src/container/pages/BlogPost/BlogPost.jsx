@@ -1,7 +1,7 @@
 /*eslint-disable */
 import React, { Component, Fragment } from 'react';
 import "./BlogPost.css"
-import Post from '../../component/Post/Post';
+import Post from '../../../component/Post/Post';
 import axios from 'axios';
 import { nanoid } from 'nanoid';
 
@@ -125,6 +125,10 @@ class BlogPost extends Component {
     
         this.handleSubmitButton();
     }
+    
+    handleDetail = (blogId) => {
+        this.props.history.push(`/blog-post-detail/${blogId}`)
+    }
 
     handleSubmitButton = () => {
         if(this.state.isUpdate) {
@@ -168,7 +172,8 @@ class BlogPost extends Component {
                         key={index.id}
                         data={index}
                         remove={this.handleRemove}
-                        update={this.handleUpdate} />
+                        update={this.handleUpdate}
+                        goDetail={this.handleDetail} />
                     }))
                     :
                     (

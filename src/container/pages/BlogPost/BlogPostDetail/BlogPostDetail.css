@@ -1,0 +1,12 @@
+.post-detail-container, .breadcumb-detail-blog {
+    margin: 1%;
+}
+
+.breadcumb-detail-blog {
+    padding: 1em;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
