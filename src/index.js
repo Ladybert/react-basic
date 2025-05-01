@@ -1,16 +1,25 @@
 /* eslint-disable */
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM, { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './container/Home/Home';
+// import {createStore} from 'redux'
+// import {Provider} from 'react-redux'
+// import rootReducer from './redux/reducer/globalReducer';
+
+// store
+// const storeRedux = createStore(rootReducer)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <Provider store={storeRedux}>
+//     <Home />
+//   </Provider>
+// );
 root.render(
-  <React.StrictMode>
     <Home />
-  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

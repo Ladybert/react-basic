@@ -4,6 +4,7 @@ import "./BlogPost.css"
 import Post from '../../../component/Post/Post';
 import axios from 'axios';
 import { nanoid } from 'nanoid';
+import API from '../../../services';
 
 class BlogPost extends Component {
     
@@ -16,24 +17,22 @@ class BlogPost extends Component {
             body: '',
             userId: 1
         },
-        isUpdate: false
+        isUpdate: false,
+        comment: []
     }
 
     getPostAPI = () => {
-        axios.get(this.state.postAPI + "?_sort=id&_order=desc")
-        .then((rsp) => {
-            console.log(rsp.data)
+        API.getNewsBlog().then(res => {
             this.setState({
-                postUrl: rsp.data,
+                postUrl: res,
                 isApiOnline: true
             })
-        })
-        .catch(() => {
-            this.setState({ 
-                postUrl: [],
-                isApiOnline: false 
-            });
-          });    
+        })  
+        // API.getComments().then(res => {
+        //     this.setState({
+        //         comment: res,
+        //     })
+        // })
     }
 
     handleRemove = (data) => {
@@ -165,6 +164,15 @@ class BlogPost extends Component {
                     <textarea name="body" id="body" value={this.state.formBlogPost.body} onChange={this.handleFormOnChange} cols={30} rows={10} placeholder='add new text'></textarea>
                     <button className='btn-submit' onClick={this.handleValueValidate}>Simpan</button>
                 </div>
+                {/* {
+                    this.state.comment.map(comment => {
+                        return (
+                            <div>
+                                <p>{comment.name} - {comment.email}</p>
+                            </div>
+                        )
+                    })
+                } */}
                 {
                     this.state.isApiOnline ?
                     (this.state.postUrl.map(index => {

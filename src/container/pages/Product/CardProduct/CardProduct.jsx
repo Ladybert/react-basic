@@ -10,7 +10,7 @@ class CardProduct extends Component {
         </div>
         <p className="product-title">Daging Sapi Premium | Fresh langsung impor dari Jepun</p>
         <p className="product-price">Rp 978.000</p>
-        <Counter onCounterChange={(value)=> this.props.onCounterChange(value)}/>
+        <Counter />
     </div>
     )
   }
